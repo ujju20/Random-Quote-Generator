@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
+  let quote="Don't let yesterday take up too much of today.";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <center>
+      <h1 class="heading">Quote Generator</h1>
+      <div class="Quote">
+          <div class="Quote-text">
+            {quote}
+          </div>
+        </div>
+      <button type="button" class="btn">Generate Quote</button>
+      </center>
     </div>
   );
 }
