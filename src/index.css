@@ -5,31 +5,39 @@ body {
   font-family: 'Otomanopee One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('bg.jpg');
+  background-color:antiquewhite;
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .heading{
   text-align: center;
-  color: black;
+  color: #24c016;
+  text-decoration:underline;
+  padding: 30px;
 }
 .Quote{
   text-align: center;
   width:500px;
-  height:200px;
-  color: black;
   margin-bottom: 50px;
-  /* border: 5px solid salmon;
-  border-radius: 8px; */
+  border: 5px solid salmon;
+  border-radius: 8px;
 }
 .Quote-text{
-  padding-top: 50px;
+  /* padding-top: 50px; */
+  color:black;
+  padding:15px;
+}
+@media screen and (min-width:500px){
+  .Quote-text{
+    font-size: 30px;
+  }
 }
 .btn{
   width:200px;
   height: 60px;
-  background-color: salmon;
+  margin-top: 90px;
+  background-color: #bde76f;
   border-radius: 10px;
   border:none;
   font-size: 20px;
@@ -37,5 +45,11 @@ body {
 }
 
 .btn:hover{
-  background-color:sandybrown;
+  background-color:lime;
+  color:black;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
 }
